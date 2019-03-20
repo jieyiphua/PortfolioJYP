@@ -1,0 +1,45 @@
+
+.skillcontainer {
+  height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skilltop {
+  height: 30%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.skill {
+  font-size: 120px;
+  color: var(--oceanblue);
+}
+
+.skillname {
+  font-size: 60px;
+  color: var(--oceanblue);
+}
+
+.skillbottom {
+  height: 70%;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: red;
+}
+
+.skilllogo {
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
