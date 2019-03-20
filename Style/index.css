@@ -1,0 +1,36 @@
+/* Different Stylesheets */
+@import './navbar.css';
+@import './sidebar.css';
+@import './main.css';
+@import './bio.css';
+@import './contact.css';
+@import './skills.css';
+
+
+
+/* fonts */
+@import url('https://fonts.google.com/specimen/Prata');
+@import url('https://fonts.google.com/specimen/Chewy');
+@import url('https://fontlibrary.org/en/font/tuffy');
+@import url('https://fonts.google.com/specimen/Tulpen+One');
+
+:root {
+  --oceanblue: #00C5E8;
+  --darkocean: #263273;
+  --darkgreey: #32484E;
+  --maroonred: #BA0400;
+  --skillblue: #1070BC;
+  --brightorange: #FF9C00;
+  --softgrey: #89989B;
+  --softblue: #CCF3FA;
+  --softpurple: #A7ADD2;
+  --royalblue: #2D3E94;
+  --hamred: #E31313;
+  --hamorange: #FFB643;
+
+  --shadow:	    0 2px 4px 0 rgba(0,0,0,0.10);
+  --shadow-md:  0 4px 8px 0 rgba(0, 0, 0, 0.171),
+                  0 2px 4px 0 rgba(0,0,0,0.08);
+  --shadow-lg:	0 15px 30px 0 rgba(0,0,0,0.11),
+                  0 5px 15px 0 rgba(0,0,0,0.08);
+}
