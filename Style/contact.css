@@ -72,8 +72,8 @@
   display: flex;
   justify-content: center;  
   align-items: center;
-  font-size: 100px;
-  padding: 2%;
+  font-size: 7vw;
+  padding: 3%;
   width: 60%;
   color: var(--royalblue);
 }
@@ -96,30 +96,30 @@
 
 input[name=name] {
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  height: 40px;
-  width: 400px;
+  height: 3vw;
+  width: 30vw;
   background: var(--brightorange);
   color: black;
-  font-size: 18px;
+  font-size: 1vw;
   border-radius: 5px;
 
 }
 
 input[type=email] {
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  height: 40px;
-  width: 400px;
+  height: 3vw;
+  width: 30vw;
   background: var(--brightorange);
-  font-size: 18px;
+  font-size: 1vw;
   border-radius: 5px;
 }
 
 input[name=message] {
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  height: 100px;
-  width: 400px;
+  height: 6vw;
+  width: 30vw;
   background: var(--brightorange);
-  font-size: 18px;
+  font-size: 1vw;
   border-radius: 5px;
 }
 
@@ -127,16 +127,16 @@ input[type=submit] {
   background: var(--brightorange);
   text-decoration: none;
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  width: 400px; 
-  height: 30px;
-  font-size: 18px;
+  height: 2vw;
+  width: 30vw;
+  font-size: 1vw;
   border-radius: 5px;
 
 }
 
 ::placeholder {
   color: black;
-  padding-left: 4px;
+  padding-left: 0.5vw;
 }
 
 input:hover {
