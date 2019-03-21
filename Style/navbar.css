@@ -83,3 +83,21 @@
   text-decoration: none;
   color: black;
 }
+
+/* tablet */
+
+@media only screen and (max-width: 800px) {
+
+}
+  
+  
+  
+  
+/* mobile */
+  
+@media only screen and (max-width: 360px) {
+
+  .linkbox {
+    display: none;
+  }
+}

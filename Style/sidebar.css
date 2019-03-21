@@ -1,4 +1,28 @@
 
-.sidebarlogo {
-  margin-left: 3%;
+.sidebar {
+  float: right;
+  margin-top: 20px;
+  margin-right: 10px;
+  display: none;
+}
+
+/* tablet */
+
+@media only screen and (max-width: 800px) {
+  
+ /* .sidebar {
+   display: block;
+ } */
+}
+  
+  
+  
+  
+/* mobile */
+  
+@media only screen and (max-width: 360px) {
+
+ .sidebar {
+   display: block;
+ }
 }

@@ -85,13 +85,31 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10px;
+  border: 1px solid black;
 }
 
 
 /* tablet */
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 800px) {
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contentleftbox {
+    float: none;
+    width: 50%;
+    margin-left: 0;
+  }
+  
+  .contentright {
+    display: none;
+  }
+  
+}
 
 
 
@@ -100,4 +118,22 @@
 
 /* mobile */
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 360px) {
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contentleftbox {
+    float: none;
+    width: 50%;
+    margin-left: 0;
+  }
+  
+  .contentright {
+    display: none;
+  }
+
+}

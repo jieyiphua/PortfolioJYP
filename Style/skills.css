@@ -52,3 +52,16 @@
   align-items: center;
   font-size: 7vw;
 }
+
+/* tablet */
+
+@media only screen and (max-width: 800px) {
+
+
+
+
+
+
+  /* mobile */
+  
+  @media only screen and (max-width: 360px) {
