@@ -14,17 +14,16 @@
   align-items: center;
   flex-direction: column;
   margin-left: 5%;
-  padding-left: 20px;
-  padding-right: 20px;
+  border: 1px solid red;
 }
 
 .biome {
-  font-size: 120px;
+  font-size: 8vw;
   color: var(--maroonred)
 }
 
 .bioname {
-  font-size: 60px;
+  font-size: 4vw;
   color: var(--maroonred)
 }
 
@@ -34,6 +33,6 @@
   justify-content: center;
   align-items: center;
   margin-left: 5%;
-  font-size: 80px;
+  font-size: 5.5vw;
 }
 

@@ -28,13 +28,13 @@
   color: black;
   text-decoration: none;
   /* font-family: 'prata'; */
-  padding: 0px 50px;
-  margin: 30px;
-  width: 30px;
+  padding: 0 4vw;
+  margin: 2vw;
+  width: 2vw;
   height: 50px;
   display: flex;
   justify-content: center;
-  align-items: center;  
+  align-items: center; 
 }
 
 .links:hover {
@@ -43,37 +43,43 @@
 }
 
 .links1 {
-  padding: 0px 50px;
-  margin: 10px;
+  padding: 0 4vw;
+  margin: 2vw;
+  width: 2vw;
   height: 50px;
-  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   box-shadow: 1px 1px 40px var(--maroonred);
+  text-decoration: none;
+  color: black;
 }
 
 .links2 {
-  padding: 0px 50px;
-  margin: 10px;
+  padding: 0 4vw;
+  margin: 2vw;
+  width: 2vw;
   height: 50px;
-  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   box-shadow: 1px 1px 40px var(--skillblue);
+  text-decoration: none;
+  color: black;
 }
 
 .links3 {
-  padding: 0px 50px;
-  margin: 10px;
+  padding: 0 4vw;
+  margin: 2vw;
+  width: 2vw;
   height: 50px;
-  width: 50px;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   box-shadow: 1px 1px 40px var(--hamorange);
+  text-decoration: none;
+  color: black;
 }
