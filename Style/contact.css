@@ -2,7 +2,7 @@
 .contactcontainer {
   height: calc(100vh - 100px);
   display: grid;
-  grid-template-columns: 0.4fr 0.6fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.4fr 0.6fr;
   margin-left: 5%;
   margin-right: 5%;
@@ -15,34 +15,39 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
+
 }
 
 .contact {
-  font-size: 8vw;
+  font-size: 7vw;
   color: var(--brightorange);
+  font-family: 'Prata', serif;
+  padding-right: 5vw;
 }
 
 .contactname {
   font-size: 4vw;
   color: var(--brightorange);
+  font-family: 'Prata', serif;
+  padding-right: 7vw;
 }
 
 .contactlinksbox {
   grid-column: 2 / 3;
   grid-row: 1 / 2;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-end;
-  padding-left: 5%;
 }
 
 .contactlinks {
   height: 8vw;
   width: 8vw;
   border-radius: 50%;
-  margin-right: 10%;
-  margin-bottom: 2%;  
-  background: blue;
+  margin-right: 3vw;
+  margin-bottom: 2vw;  
+  background: var(--softgrey);
+  margin-left: 1.5vw;
 }
 
 .contactbottomcontainer {
@@ -50,12 +55,13 @@
   grid-row: 2 / 3;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .contactbottombox {
   width: 80%;
   height: 70%;
+  margin-top: 5vh;
   border: 2px solid var(--royalblue); 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -76,6 +82,7 @@
   padding: 3%;
   width: 60%;
   color: var(--royalblue);
+  font-family: 'Prata', serif;
 }
 
 .formcontainer {
@@ -102,7 +109,7 @@ input[name=name] {
   color: black;
   font-size: 1vw;
   border-radius: 5px;
-
+  font-family: 'Prata', serif;
 }
 
 input[type=email] {
@@ -112,6 +119,7 @@ input[type=email] {
   background: var(--brightorange);
   font-size: 1vw;
   border-radius: 5px;
+  font-family: 'Prata', serif;
 }
 
 input[name=message] {
@@ -121,6 +129,7 @@ input[name=message] {
   background: var(--brightorange);
   font-size: 1vw;
   border-radius: 5px;
+  font-family: 'Prata', serif;
 }
 
 input[type=submit] {
@@ -131,7 +140,7 @@ input[type=submit] {
   width: 30vw;
   font-size: 1vw;
   border-radius: 5px;
-
+  font-family: 'Prata', serif;
 }
 
 ::placeholder {

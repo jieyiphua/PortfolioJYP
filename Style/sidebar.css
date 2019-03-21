@@ -3,26 +3,71 @@
   float: right;
   margin-top: 20px;
   margin-right: 10px;
-  display: none;
+  /* display: none; */
+
+  /* border: 3px solid red; */
 }
+ 
+
+
+
+
+
 
 /* tablet */
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) { */
   
  /* .sidebar {
    display: block;
- } */
-}
+ }
+} */
   
   
   
   
 /* mobile */
-  
+/*   
 @media only screen and (max-width: 400px) {
 
  .sidebar {
    display: block;
  }
+} */
+
+
+
+
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  right: -9999px;
 }
+
+label { 
+  display: inline-block;
+  cursor: pointer;  
+  position: relative;
+}
+
+.sidebarcontent {
+position: relative;
+background: white;
+height: calc(100vh - 100px);
+line-height: 100px;
+color: white;
+text-align: center;
+z-index: 1000;
+display: none;
+
+}
+
+input[type=checkbox]:checked ~ div {
+  display: block
+}
+
+input[type=checkbox]:checked ~  {
+
+
+}
+

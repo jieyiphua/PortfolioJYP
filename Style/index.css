@@ -9,10 +9,9 @@
 
 
 /* fonts */
-@import url('https://fonts.google.com/specimen/Prata');
-@import url('https://fonts.google.com/specimen/Chewy');
-@import url('https://fontlibrary.org/en/font/tuffy');
-@import url('https://fonts.google.com/specimen/Tulpen+One');
+@import url('https://fonts.googleapis.com/css?family=Prata');
+@import url('https://fonts.googleapis.com/css?family=Chewy');
+@import url('https://fonts.googleapis.com/css?family=Tulpen+One');
 
 :root {
   --oceanblue: #00C5E8;

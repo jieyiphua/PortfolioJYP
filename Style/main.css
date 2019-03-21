@@ -28,8 +28,7 @@
   padding-left: 5%;
   border-left: 10px solid black;
   margin-top: 20%;
-  margin-bottom: 20%;
-  
+  margin-bottom: 20%;  
 }
 
 .hello {
@@ -41,6 +40,7 @@
   font-size: 4vw;
   margin-right: 2%;
   color: var(--darkocean);
+  font-family: 'Chewy', cursive;
 }
 
 .mainname {
@@ -52,6 +52,7 @@
   font-size: 6vw;
   margin-right: 2%;
   color: white;
+  font-family: 'Chewy', cursive;
 }
 
 .content {
@@ -66,11 +67,12 @@
   width: 30%;
   margin-top: 3%;
   margin-left: 8%;
-  font-size: 3vw;
+  font-size: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
+  font-family: 'Tulpen One', cursive;
 }
 
 .contentright {
@@ -80,13 +82,19 @@
   width: 50%;
   margin-top: 3%;
   margin-right: 8%;
-  font-size: 2vw;
+  font-size: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 1px solid black;
+  font-family: 'Tulpen One', cursive;
 }
+
+
+
+
+
+
 
 
 /* tablet */
