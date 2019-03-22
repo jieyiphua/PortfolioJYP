@@ -21,12 +21,40 @@
     </div>
     
     <div class="sidebar">
-      <svg class="sidebarlogo" width="63" height="53" viewBox="0 0 63 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <label for="sidebartoggle"><svg class="sidebarlogo" width="63" height="53" viewBox="0 0 63 53" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="63" height="13" fill="#E31313"/>
         <rect y="20" width="63" height="13" fill="#00C5E8"/>
         <rect y="40" width="63" height="13" fill="#FFB643"/>
-      </svg>
-    </div>
+        </svg></label>
+  
+        <input type="checkbox" id="sidebartoggle" class="sidebarclick">
+  
+        <div class="sidebarcontent">
+          <div class="sidebarcontentcontainer">
+            <div class="sidebarlinksbox">
+            <a href="./index.html" class="sidebarlinks">Home</a>
+            <a href="./bio.html" class="sidebarlinks">Bio</a>
+            <a href="./skills.html" class="sidebarlinks">Skills</a>
+            <a href="./contact.html" class="sidebarlinks">Contact</a>  
+            </div>
+            <!-- <div class="sideformbox">
+              <form action="https://formspree.io/jieyiphua@gmail.com" method="POST">
+                <p><input type="text" name="sidename" placeholder="Your name:"></p>
+                <p><input type="email" name="side_replyto" placeholder="Your email:"></p>
+                
+                <p><input type="text" name="sidemessage" placeholder="Type a Message"></p>
+                
+                <input type="submit" id="sidesubmit" value="Submit">
+              </form>
+            </div> -->
+            <div class="sidebarcontactbox">
+            <a href="#" class="sidebarcontactlinks"></a>
+            <a href="#" class="sidebarcontactlinks"></a>
+            <a href="#" class="sidebarcontactlinks"></a>
+            </div>
+          </div>
+        </div>    
+      </div>     
 
     
     <div class="linkbox">
@@ -67,7 +95,7 @@
               <br>
               <p><input type="text" name="message" placeholder="Type a Message"></p>
               <br>
-              <input type="submit" value="Submit">
+              <input type="submit" id="submit" value="Submit">
             </form>
           </div>
         </div>
