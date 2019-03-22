@@ -24,7 +24,7 @@
   justify-content: flex-start;
   align-items: center;
   color: var(--darkgreey);
-  font-size: 10vw;
+  font-size: 15vh;
   padding-left: 5%;
   border-left: 10px solid black;
   margin-top: 20%;
@@ -38,7 +38,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  font-size: 4vw;
+  font-size: 7vh;
   margin-right: 2%;
   color: var(--darkocean);
   font-family: 'Chewy', cursive;
@@ -50,7 +50,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
-  font-size: 6vw;
+  font-size: 10vh;
   margin-right: 2%;
   color: white;
   font-family: 'Chewy', cursive;
@@ -117,7 +117,11 @@
   .contentright {
     display: none;
   }
-  
+
+  .contentleftbox {
+    font-size: 8vw;
+  }
+
 }
 
 
@@ -143,6 +147,22 @@
   
   .contentright {
     display: none;
+  }
+
+  .hello {
+    font-size: 10vw;
+  }
+
+  .mainname {
+    font-size: 14vw;
+  }  
+
+  .pan {
+    font-size: 20vw;
+  }
+
+  .contentleftbox {
+    font-size: 12vw;
   }
 
 }

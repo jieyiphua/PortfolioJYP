@@ -3,9 +3,7 @@
   float: right;
   margin-top: 20px;
   margin-right: 10px;
-  /* display: none; */
-  
-  /* border: 3px solid red; */
+  display: none;
 }
 
 .sidebarcontent {
@@ -19,7 +17,7 @@
   z-index: 1;
   display: none;
   /* border-left: 2px solid black; */
-  box-shadow: inset 5px 2px 20px -10px var(--royalblue);
+  box-shadow: inset 5px 2px 20px -10px var(--softgrey);
 }
 
 .sidebarcontentcontainer {
@@ -124,12 +122,12 @@ input[name=sidemessage] {
 
   /* tablet */
   
-  /* @media only screen and (max-width: 800px) { */
+   @media only screen and (max-width: 800px) { 
     
-    /* .sidebar {
+     .sidebar {
       display: block;
     }
-  } */
+  } 
   
   
   
