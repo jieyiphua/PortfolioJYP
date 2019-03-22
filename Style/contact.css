@@ -40,14 +40,27 @@
   align-items: flex-end;
 }
 
-.contactlinks {
-  height: 8vw;
-  width: 8vw;
-  border-radius: 50%;
-  margin-right: 3vw;
+#contactlinks1 {
+  font-size: 11vw;
+  text-decoration: none;
   margin-bottom: 2vw;  
-  background: var(--softgrey);
-  margin-left: 1.5vw;
+  margin-right: 2vw;
+  color: var(--softgrey);
+}
+
+#contactlinks2 {
+  font-size: 11vw;
+  text-decoration: none;
+  margin-bottom: 2vw;  
+  margin-right: 2vw;
+  color: var(--softblue);
+}
+
+#contactlinks3 {
+  font-size: 11vw;
+  text-decoration: none;
+  margin-bottom: 2vw;  
+  color: var(--softpurple);
 }
 
 .contactbottomcontainer {
@@ -165,9 +178,16 @@ input:hover {
     font-size: 5vw;
   }
   
-  .contactlinks {
-    width: 12vw;
-    height: 12vw;
+  #contactlinks1 {
+   font-size: 13vw;
+  }
+
+  #contactlinks2 {
+    font-size: 13vw;
+  }
+
+  #contactlinks3 {
+    font-size: 13vw;
   }
   
   .contactbottombox {
@@ -212,7 +232,6 @@ input:hover {
     justify-content: center;
     align-items: center;
     margin-top: 5vh;
-    
   }
   
   .contactlinksbox {
@@ -223,7 +242,7 @@ input:hover {
     align-items: center;
     margin-top:  5vh;
   }
-  
+
   .contactbottomcontainer {
     grid-row: 3 / 4;
   }
@@ -242,11 +261,20 @@ input:hover {
     padding-right: 4vw;
   }
   
-  .contactlinks {
-    height: 10vh;
-    width: 10vh;
+  #contactlinks1 {
+    font-size: 20vw;
+    margin-right: 5vw;
   }
   
+  #contactlinks2 {
+    font-size: 20vw;
+    margin-right: 5vw;
+  }
+
+  #contactlinks3 {
+    font-size: 20vw;
+  }
+
   .getintouchbox {
     display: none;
   }
