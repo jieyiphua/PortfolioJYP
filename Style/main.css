@@ -63,17 +63,18 @@
 .contentleftbox {
   float: left;
   background: var(--darkocean);
-  color: var(--hamorange);
+  background-size: 10px; 
   height: 80%;
   width: 30%;
-  margin-top: 3%;
+  margin-top: 2%;
   margin-left: 8%;
-  font-size: 5vw;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  font-family: 'Tulpen One', cursive;
+}
+
+#picofme {
+  height: 30vh;
 }
 
 .contentright {
@@ -91,17 +92,16 @@
   font-family: 'Tulpen One', cursive;
 }
 
-
 /* tablet */
 
 @media only screen and (max-width: 768px) {
-
+  
   .content {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .contentleftbox {
     float: none;
     width: 50%;
@@ -111,36 +111,34 @@
   .contentright {
     display: none;
   }
-
+  
   .contentleftbox {
     font-size: 8vw;
   }
-
+  
   .hello {
     font-size: 8vw;
   }
-
+  
   .mainname {
     font-size: 10vw;
   }  
-
+  
   .pan {
     font-size: 16vw;
   }
-
 }
-
 
 /* mobile */
 
 @media only screen and (max-width: 430px) {
-
+  
   .content {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
+  
   .contentleftbox {
     float: none;
     width: 50%;
@@ -150,21 +148,24 @@
   .contentright {
     display: none;
   }
-
+  
   .hello {
     font-size: 4vh;
   }
-
+  
   .mainname {
     font-size: 5vh;
   }  
-
+  
   .pan {
     font-size: 8vh;
   }
-
+  
   .contentleftbox {
     font-size: 12vw;
-  }
+  } 
 
+  #picofme {
+    height: 40vw;
+  }
 }

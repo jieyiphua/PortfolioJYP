@@ -73,7 +73,7 @@
   align-items: center;
 }
 
- .getintouch {
+.getintouch {
   grid-column: 1 / 2;
   display: flex;
   justify-content: center;  
@@ -160,20 +160,20 @@ input:hover {
   .contact {
     font-size: 8vw;
   }
-
+  
   .contactname {
     font-size: 5vw;
   }
-
+  
   .contactlinks {
     width: 12vw;
     height: 12vw;
   }
-
+  
   .contactbottombox {
     width: 95%;
   }
-
+  
   input[name=name] {
     height: 6vh;
     width: 40vw;
@@ -197,79 +197,79 @@ input:hover {
 }
 
 
-  /* mobile */
+/* mobile */
+
+@media only screen and (max-width: 430px) {
   
-  @media only screen and (max-width: 430px) {
-  
-    .contactcontainer {
-      grid-template-columns: 1fr;
-      grid-template-rows: 0.2fr 0.2fr 0.6fr;
-    }
-
-    .contactbox {
-      grid-row: 1 / 2;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top: 5vh;
-
-    }
-
-    .contactlinksbox {
-      grid-column: 1 / 2;
-      grid-row: 2 / 3;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin-top:  5vh;
-    }
-
-    .contactbottomcontainer {
-      grid-row: 3 / 4;
-    }
-
-    .contactbottombox {
-      grid-template-columns: 1fr;
-    }
-
-    .contact {
-      font-size: 8vh;
-      padding: 0px;
-    }
-    
-    .contactname {
-      font-size: 4vh;
-      padding-right: 4vw;
-    }
-
-    .contactlinks {
-      height: 10vh;
-      width: 10vh;
-    }
-
-    .getintouchbox {
-      display: none;
-    }
-
-    input[name=name] {
-      height: 6vh;
-      width: 70vw;
-      margin-top: 1vh;
-    }
-    
-    input[name=_replyto] {
-      height: 6vh;
-      width: 70vw;
-    }
-    
-    input[name=message] {
-      height: 12vh;
-      width: 70vw;
-    }
-    
-    #submit {
-      height: 4vh;
-      width: 70vw;
-      margin-bottom: 1vh;
-    }
+  .contactcontainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 0.2fr 0.6fr;
   }
+  
+  .contactbox {
+    grid-row: 1 / 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+    
+  }
+  
+  .contactlinksbox {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:  5vh;
+  }
+  
+  .contactbottomcontainer {
+    grid-row: 3 / 4;
+  }
+  
+  .contactbottombox {
+    grid-template-columns: 1fr;
+  }
+  
+  .contact {
+    font-size: 8vh;
+    padding: 0px;
+  }
+  
+  .contactname {
+    font-size: 4vh;
+    padding-right: 4vw;
+  }
+  
+  .contactlinks {
+    height: 10vh;
+    width: 10vh;
+  }
+  
+  .getintouchbox {
+    display: none;
+  }
+  
+  input[name=name] {
+    height: 6vh;
+    width: 70vw;
+    margin-top: 1vh;
+  }
+  
+  input[name=_replyto] {
+    height: 6vh;
+    width: 70vw;
+  }
+  
+  input[name=message] {
+    height: 12vh;
+    width: 70vw;
+  }
+  
+  #submit {
+    height: 4vh;
+    width: 70vw;
+    margin-bottom: 1vh;
+  }
+}

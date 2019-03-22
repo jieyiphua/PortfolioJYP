@@ -32,9 +32,6 @@
 .skilllogobox {
   height: 40vh;
   width: 50vw;
-  /* display: grid;
-  grid-template-columns: 40fr 60fr; */
-
   display: flex;
   justify-content: center;
   align-content: center;
@@ -42,7 +39,6 @@
 }
 
 .skilllogo {
-  /* grid-column: 1 / 2; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -51,34 +47,63 @@
   color: var(--darkgreey);
 }
 
-.beginner {
-  /* grid-column: 2 / 3; */
+.skillprogresscontainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 6vw;
+  padding-left: 5vw; 
+}
+
+.skillprogress {
+  background: var(--darkgreey);
+  border-radius: 13px;
+  height: 5vh;
+  width: 30vw;
+  padding: 3px;
+}
+
+.skillprogress:after {
+  content: '25%';
+  text-align: center;
+  font-size: 3vw;
   font-family: 'Prata', serif;
-  padding-left: 5vw;
+  display: block;
+  background: var(--oceanblue);
+  width: 25%;
+  height: 100%;
+  border-radius: 9px;
 }
 
 /* tablet */
 
 @media only screen and (max-width: 768px) {
-
+  
   .beginner {
     font-size: 6vh;
   }
-
+  
   .skilllogo {
     font-size: 10vh;
   }
 
+  .skillprogress {
+    height: 4vh;
+  }
+  
 }
 
 
-  /* mobile */
+/* mobile */
+
+@media only screen and (max-width: 430px) {
   
-  @media only screen and (max-width: 430px) {
-  
-  
+  .skillprogress {
+    height: 4vh;
+    width: 50vw;
   }
+
+  .skillprogress::after {
+    font-size: 5vw;
+  }
+  
+}
