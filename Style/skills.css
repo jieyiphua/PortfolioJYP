@@ -9,62 +9,76 @@
 
 .skillbox {
   height: 100vh;
-  width: 50vw;
+  width: 90vw;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   flex-direction: column;
   padding-top: 5vh;
 }
 
 .skill {
-  font-size: 8vw;
+  font-size: 12vh;
   color: var(--oceanblue);
   font-family: 'Prata', serif;
 }
 
 .skillname {
-  font-size: 4vw;
+  font-size: 6vh;
   color: var(--oceanblue);
   font-family: 'Prata', serif;
 }
 
 .skilllogobox {
-  height: 50vh;
+  height: 40vh;
   width: 50vw;
-  display: grid;
-  grid-template-columns: 40fr 60fr;
+  /* display: grid;
+  grid-template-columns: 40fr 60fr; */
+
+  display: flex;
+  justify-content: center;
+  align-content: center;
   margin-top: 5vh;
 }
 
 .skilllogo {
-  grid-column: 1 / 2;
+  /* grid-column: 1 / 2; */
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 6vw;
+  font-size: 10vh;
   color: var(--darkgreey);
 }
 
 .beginner {
-  grid-column: 2 / 3;
+  /* grid-column: 2 / 3; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 6vw;
   font-family: 'Prata', serif;
+  padding-left: 5vw;
 }
 
 /* tablet */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
 
+  .beginner {
+    font-size: 6vh;
+  }
 
+  .skilllogo {
+    font-size: 10vh;
+  }
 
-
+}
 
 
   /* mobile */
   
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 430px) {
+  
+  
+  }

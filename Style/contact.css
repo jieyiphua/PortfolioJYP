@@ -15,7 +15,7 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-
+  /* background: red; */
 }
 
 .contact {
@@ -60,7 +60,7 @@
 
 .contactbottombox {
   width: 80%;
-  height: 70%;
+  height: 72%;
   margin-top: 5vh;
   border: 2px solid var(--royalblue); 
   display: grid;
@@ -103,42 +103,45 @@
 
 input[name=name] {
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  height: 3vw;
+  height: 6vh;
   width: 30vw;
   background: var(--brightorange);
   color: black;
-  font-size: 1vw;
+  font-size: 12px;
   border-radius: 5px;
   font-family: 'Prata', serif;
+  margin-bottom: 1vh;
 }
 
 input[name=_replyto] {
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  height: 3vw;
+  height: 6vh;
   width: 30vw;
   background: var(--brightorange);
-  font-size: 1vw;
+  font-size: 12px;
   border-radius: 5px;
   font-family: 'Prata', serif;
+  margin-bottom: 1vh;
 }
 
 input[name=message] {
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  height: 6vw;
+  height: 12vh;
   width: 30vw;
   background: var(--brightorange);
-  font-size: 1vw;
+  font-size: 12px;
   border-radius: 5px;
   font-family: 'Prata', serif;
+  margin-bottom: 1vh;
 }
 
 #submit {
   background: var(--brightorange);
   text-decoration: none;
   border: solid rgba(0, 0, 0, 0.644) 1px;  
-  height: 2vw;
+  height: 4vh;
   width: 30vw;
-  font-size: 1vw;
+  font-size: 12px;
   border-radius: 5px;
   font-family: 'Prata', serif;
 }
@@ -151,3 +154,122 @@ input[name=message] {
 input:hover {
   box-shadow: inset 0px 0px 500px rgb(255, 224, 177);
 }
+
+/* tablet */
+@media only screen and (max-width: 768px) {
+  .contact {
+    font-size: 8vw;
+  }
+
+  .contactname {
+    font-size: 5vw;
+  }
+
+  .contactlinks {
+    width: 12vw;
+    height: 12vw;
+  }
+
+  .contactbottombox {
+    width: 95%;
+  }
+
+  input[name=name] {
+    height: 6vh;
+    width: 40vw;
+  }
+  
+  input[name=_replyto] {
+    height: 6vh;
+    width: 40vw;
+  }
+  
+  input[name=message] {
+    height: 12vh;
+    width: 40vw;
+  }
+  
+  #submit {
+    height: 4vh;
+    width: 40vw;
+  }
+  
+}
+
+
+  /* mobile */
+  
+  @media only screen and (max-width: 430px) {
+  
+    .contactcontainer {
+      grid-template-columns: 1fr;
+      grid-template-rows: 0.2fr 0.2fr 0.6fr;
+    }
+
+    .contactbox {
+      grid-row: 1 / 2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 5vh;
+
+    }
+
+    .contactlinksbox {
+      grid-column: 1 / 2;
+      grid-row: 2 / 3;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top:  5vh;
+    }
+
+    .contactbottomcontainer {
+      grid-row: 3 / 4;
+    }
+
+    .contactbottombox {
+      grid-template-columns: 1fr;
+    }
+
+    .contact {
+      font-size: 8vh;
+      padding: 0px;
+    }
+    
+    .contactname {
+      font-size: 4vh;
+      padding-right: 4vw;
+    }
+
+    .contactlinks {
+      height: 10vh;
+      width: 10vh;
+    }
+
+    .getintouchbox {
+      display: none;
+    }
+
+    input[name=name] {
+      height: 6vh;
+      width: 70vw;
+      margin-top: 1vh;
+    }
+    
+    input[name=_replyto] {
+      height: 6vh;
+      width: 70vw;
+    }
+    
+    input[name=message] {
+      height: 12vh;
+      width: 70vw;
+    }
+    
+    #submit {
+      height: 4vh;
+      width: 70vw;
+      margin-bottom: 1vh;
+    }
+  }
