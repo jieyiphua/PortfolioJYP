@@ -65,7 +65,7 @@
 .skillprogress:after {
   content: '25%';
   text-align: center;
-  font-size: 3vw;
+  font-size: 2.5vw;
   font-family: 'Prata', serif;
   display: block;
   background: var(--oceanblue);
@@ -90,6 +90,9 @@
     height: 4vh;
   }
   
+  .skillprogress:after {
+    font-size: 3vw;
+  }
 }
 
 
