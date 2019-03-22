@@ -27,7 +27,7 @@
   flex-direction: column;
   height: calc(100vh - 100px);
   margin-bottom: 100px;
-
+  
 }
 
 .sidebarlinksbox {
@@ -52,7 +52,7 @@
   box-shadow: 0 2px 2px -2px gray;
   margin-bottom: 2vh;
 }
-  
+
 .sidebarcontactbox {
   display: flex;
   justify-items: center;
@@ -70,96 +70,43 @@
   margin-left: 1.5vw;
 }
 
-.sideformbox {
-  border-radius: 5px;
-  width: 40vw;
-  height: 29vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
+input[type=checkbox] {
+  position: absolute;
+  top: -9999px;
+  right: -9999px;
 }
 
-input[name=sidename] {
-  width: 20vw;
-  height: 4vh;
-  border-radius: 5px;
-  text-decoration: none;
-  /* background: var(--softblue); */
-  border: 1px solid gray;
-  margin-bottom: 0.5vh;
-}
-  
-input[name=side_replyto] {
-  width: 20vw;
-  height: 4vh;
-  border-radius: 5px;
-  text-decoration: none;
-  /* background: var(--softblue); */
-  border: 1px solid gray;
-  margin-bottom: 0.5vh;
+label { 
+  display: inline-block;
+  cursor: pointer;  
+  position: relative;
+  z-index: 2
 }
 
-input[name=sidemessage] {
-  width: 20vw;
-  height: 10vh;
-  border-radius: 5px;
-  text-decoration: none;
-  /* background: var(--softblue); */
-  border: 1px solid gray;
-  margin-bottom: 0.5vh;
+input[type=checkbox]:checked ~ div {
+  display: block
 }
 
-#sidesubmit {
-  width: 20vw;
-  height: 3vh;
-  border-radius: 5px;
-  text-decoration: none;
-  background: white;
-  border: 1px solid gray;
-}
+/* tablet */
 
-
-  /* tablet */
+@media only screen and (max-width: 768px) { 
   
-   @media only screen and (max-width: 768px) { 
-    
-     .sidebar {
-      display: block;
-    }
-  } 
-  
-  
-  
-  
-  /* mobile */
- 
-  @media only screen and (max-width: 430px) {
-    
-    .sidebar {
-      display: block;
-    }
-  } 
-  
-  
-  
-  
-  input[type=checkbox] {
-    position: absolute;
-    top: -9999px;
-    right: -9999px;
+  .sidebar {
+    display: block;
   }
+} 
+
+/* mobile */
+
+@media only screen and (max-width: 430px) {
   
-  label { 
-    display: inline-block;
-    cursor: pointer;  
-    position: relative;
-    z-index: 2
+  .sidebar {
+    display: block;
   }
-  
-  
-  
-  input[type=checkbox]:checked ~ div {
-    display: block
-  }
-  
+} 
+
+
+
+
+
+
