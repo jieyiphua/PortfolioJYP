@@ -37,17 +37,7 @@
 
 /* tablet */
 
-@media only screen and (max-width: 800px) {
-
-
-}
-
-
-
-
-/* mobile */
-  
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 768px) {
   .biocontainer {
     display: flex;
     flex-direction: column;
@@ -56,17 +46,53 @@
   .bioleft {
     width: 80%;
     height: 35vh;
+    margin-bottom: 3vh;
   }
   
   .biome {
-    font-size: 25vw;
+    font-size: 15vh;
   }
 
   .bioname {
-    font-size: 10vw;
+    font-size: 5vh;
+  }
+
+  .bioright {
+    width: 70%;
+    font-size: 5vh;
+    padding-left: 10vw;
+  }
+
+}
+
+
+
+
+/* mobile */
+  
+@media only screen and (max-width: 430px) {
+  .biocontainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bioleft {
+    width: 80%;
+    height: 35vh;
+    margin-bottom: 3vh;
+  }
+  
+  .biome {
+    font-size: 15vh;
+  }
+
+  .bioname {
+    font-size: 5vh;
   }
 
   .bioright {
     width: 80%;
     font-size: 5vh;
+    padding-left: 0px;
   }
+}

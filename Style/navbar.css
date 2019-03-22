@@ -3,7 +3,6 @@
   height: 100px;
   box-shadow: var(--shadow-md);
   color: black;
-  /* z-index: 1; */
 }
 
 .navlogo {
@@ -109,7 +108,7 @@
 
 /* tablet */
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
 
   .linkbox {
     display: none;
@@ -121,7 +120,7 @@
   
 /* mobile */
   
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 430px) {
 
   .linkbox {
     display: none;
