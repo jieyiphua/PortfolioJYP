@@ -112,7 +112,7 @@ input[name=name] {
   font-family: 'Prata', serif;
 }
 
-input[type=email] {
+input[name=_replyto] {
   border: solid rgba(0, 0, 0, 0.644) 1px;  
   height: 3vw;
   width: 30vw;
@@ -132,7 +132,7 @@ input[name=message] {
   font-family: 'Prata', serif;
 }
 
-input[type=submit] {
+#submit {
   background: var(--brightorange);
   text-decoration: none;
   border: solid rgba(0, 0, 0, 0.644) 1px;  

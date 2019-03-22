@@ -4,70 +4,164 @@
   margin-top: 20px;
   margin-right: 10px;
   /* display: none; */
-
+  
   /* border: 3px solid red; */
-}
- 
-
-
-
-
-
-
-/* tablet */
-
-/* @media only screen and (max-width: 800px) { */
-  
- /* .sidebar {
-   display: block;
- }
-} */
-  
-  
-  
-  
-/* mobile */
-/*   
-@media only screen and (max-width: 400px) {
-
- .sidebar {
-   display: block;
- }
-} */
-
-
-
-
-input[type=checkbox] {
-  position: absolute;
-  top: -9999px;
-  right: -9999px;
-}
-
-label { 
-  display: inline-block;
-  cursor: pointer;  
-  position: relative;
 }
 
 .sidebarcontent {
-position: relative;
-background: white;
-height: calc(100vh - 100px);
-line-height: 100px;
-color: white;
-text-align: center;
-z-index: 1000;
-display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  margin-top: 100px;
+  width: 60%;
+  background: white;
+  height: 100vh;
+  z-index: 1;
+  display: none;
+  /* border-left: 2px solid black; */
+  box-shadow: inset 5px 2px 20px -10px var(--royalblue);
+}
+
+.sidebarcontentcontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 100px);
+  margin-bottom: 100px;
 
 }
 
-input[type=checkbox]:checked ~ div {
-  display: block
+.sidebarlinksbox {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2vh;
 }
 
-input[type=checkbox]:checked ~  {
+.sidebarlinks {
+  color: black;
+  text-decoration: none;
+  padding: 0 4vw;
+  margin: 2vw;
+  width: 45vw;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  font-family: 'Prata', serif;
+  box-shadow: 0 2px 2px -2px gray;
+  margin-bottom: 2vh;
+}
+  
+.sidebarcontactbox {
+  display: flex;
+  justify-items: center;
+  align-content: center;
+  flex-direction: row;
+} 
 
-
+.sidebarcontactlinks {
+  height: 12vw;
+  width: 12vw;
+  border-radius: 50%;
+  margin-right: 3vw;
+  margin-bottom: 4vh;  
+  background: var(--softgrey);
+  margin-left: 1.5vw;
 }
 
+.sideformbox {
+  border-radius: 5px;
+  width: 40vw;
+  height: 29vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+input[name=sidename] {
+  width: 20vw;
+  height: 4vh;
+  border-radius: 5px;
+  text-decoration: none;
+  /* background: var(--softblue); */
+  border: 1px solid gray;
+  margin-bottom: 0.5vh;
+}
+  
+input[name=side_replyto] {
+  width: 20vw;
+  height: 4vh;
+  border-radius: 5px;
+  text-decoration: none;
+  /* background: var(--softblue); */
+  border: 1px solid gray;
+  margin-bottom: 0.5vh;
+}
+
+input[name=sidemessage] {
+  width: 20vw;
+  height: 10vh;
+  border-radius: 5px;
+  text-decoration: none;
+  /* background: var(--softblue); */
+  border: 1px solid gray;
+  margin-bottom: 0.5vh;
+}
+
+#sidesubmit {
+  width: 20vw;
+  height: 3vh;
+  border-radius: 5px;
+  text-decoration: none;
+  background: white;
+  border: 1px solid gray;
+}
+
+
+  /* tablet */
+  
+  /* @media only screen and (max-width: 800px) { */
+    
+    /* .sidebar {
+      display: block;
+    }
+  } */
+  
+  
+  
+  
+  /* mobile */
+ 
+  @media only screen and (max-width: 400px) {
+    
+    .sidebar {
+      display: block;
+    }
+  } 
+  
+  
+  
+  
+  input[type=checkbox] {
+    position: absolute;
+    top: -9999px;
+    right: -9999px;
+  }
+  
+  label { 
+    display: inline-block;
+    cursor: pointer;  
+    position: relative;
+    z-index: 2
+  }
+  
+  
+  
+  input[type=checkbox]:checked ~ div {
+    display: block
+  }
+  
