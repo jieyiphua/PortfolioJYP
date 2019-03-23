@@ -22,25 +22,25 @@ https://github.com/jieyiphua/PortfolioJYP
       Front-end - CSS and HTML is used.
 
     <!-- Site Map -->
-      https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/sitemap.jpeg
+      https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/sitemap.jpeg
 
     <!-- Screenshot -->
-      Main Page - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Page1.png
-      Bio - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Page2.png
-      Skills - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Page3.png
-      Contact - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Page4.png
+      Main Page - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/Page1.png
+      Bio - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/Page2.png
+      Skills - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/Page3.png
+      Contact - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/Page4.png
 
 <!-- Design Documentation -->
   <!-- Design Process -->
-    MoodBoard - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/MOODBOARD.png
-    DesignProcess - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/DESIGN%20PROCESS.png
-    DesignDraft1 - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/designdraft1.png
-    DesignDraft2 - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/designdraft2.png
-    DesignDraft3 - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/designdraft3.png
-    FinalDesign - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/finaldesign.png
+    MoodBoard - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/MOODBOARD.png
+    DesignProcess - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/DESIGN%20PROCESS.png
+    DesignDraft1 - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/designdraft1.png
+    DesignDraft2 - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/designdraft2.png
+    DesignDraft3 - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/designdraft3.png
+    FinalDesign - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/finaldesign.png
 
   <!-- Wire Frame -->
-    https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/wireboard.jpeg
+    https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/wireboard.jpeg
 
   <!-- Usability Considerations -->
     - NavBar page links are changed for each page. E.g. When user is in Bio page, Bio page link in Nav Bar will have a different border     design from other page links in the NavBar. This will make it easier for user to know which page they are currently in now.
@@ -49,8 +49,8 @@ https://github.com/jieyiphua/PortfolioJYP
   
 <!-- Details of planning process -->
   <!-- Screenshots of Trello Boards -->
-    Trello Screenshot - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Trello%20Screenshot%201.png
-    Trello Screenshot - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Trello%20Screenshot%203.png
+    Trello Screenshot - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/Trello%20Screenshot%201.png
+    Trello Screenshot - https://raw.githubusercontent.com/jieyiphua/PortfolioJYP/master/Screenshots/Trello%20Screenshot%203.png
 
 <!-- Describe key events in the development of the internet from the 1980s to today (max. 150 words) -->
   Top level domains (.com etc.) was introduced in 1984. In 1982 the TCP/IP was standardized. TCP/IP specifies how data is exchanged over the internet. It identified how data should be broken into packets, transmitted and received at the right destination. In 1984 the DNS is established, it allowed domain names to be matched to the IP address. In 1990, the first web browser WorldWideWeb is developed by Tim Berners Lee. 
