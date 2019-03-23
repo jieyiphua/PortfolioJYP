@@ -103,9 +103,6 @@
   font-family: 'Prata', serif;
 }
 
-
-
-
 /* tablet */
 
 @media only screen and (max-width: 768px) {
@@ -114,10 +111,7 @@
     display: none;
   }
 }
-  
-  
-  
-  
+
 /* mobile */
   
 @media only screen and (max-width: 430px) {
@@ -126,6 +120,3 @@
     display: none;
   }
 }
-
-
-/* add a home button */

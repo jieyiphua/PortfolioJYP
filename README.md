@@ -1,8 +1,8 @@
 # PortfolioJYP
 Portfolio Assignment 19 - 24 March 2019
 
-Link to published website
-
+<!-- Link to published website -->
+https://jyp.netlify.com/
 
 Link to Github Repository
 
