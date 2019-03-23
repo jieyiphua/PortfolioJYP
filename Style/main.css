@@ -17,6 +17,11 @@
   grid-template-rows: 0.48fr 0.52fr;  
 }
 
+.nameintro:hover {
+  animation-name: nameintroani;
+  animation-duration: 4s;
+}
+
 .pan {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
@@ -71,10 +76,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--brightorange);
+  font-family: 'Tulpen One', cursive;
+  font-size: 5vw;
 }
 
-#picofme {
-  height: 30vh;
+.contentleftbox:hover {
+  animation-name: fontcolorchange;
+  animation-duration: 8s;
 }
 
 .contentright {
@@ -162,10 +171,7 @@
   }
   
   .contentleftbox {
-    font-size: 12vw;
+    font-size: 10vw;
   } 
 
-  #picofme {
-    height: 40vw;
-  }
 }

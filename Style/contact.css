@@ -15,7 +15,16 @@
   justify-content: flex-end;
   align-items: flex-end;
   flex-direction: column;
-  /* background: red; */
+}
+
+.contactbox:hover .contact{
+  animation-name: fontcolorchange;
+  animation-duration: 5s;
+}
+
+.contactbox:hover .contactname {
+  animation-name: fontcolorchange;
+  animation-duration: 5s;
 }
 
 .contact {
@@ -43,24 +52,33 @@
 #contactlinks1 {
   font-size: 11vw;
   text-decoration: none;
-  margin-bottom: 2vw;  
   margin-right: 2vw;
   color: var(--softgrey);
+}
+
+#contactlinks1:hover {
+  color: var(--royalblue);
 }
 
 #contactlinks2 {
   font-size: 11vw;
   text-decoration: none;
-  margin-bottom: 2vw;  
   margin-right: 2vw;
   color: var(--softblue);
+}
+
+#contactlinks2:hover {
+  color: var(--royalblue);
 }
 
 #contactlinks3 {
   font-size: 11vw;
   text-decoration: none;
-  margin-bottom: 2vw;  
   color: var(--softpurple);
+}
+
+#contactlinks3:hover {
+  color: var(--royalblue);
 }
 
 .contactbottomcontainer {
