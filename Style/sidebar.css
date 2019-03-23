@@ -66,6 +66,10 @@
   color: var(--softgrey);
 }
 
+#sidebarcontactlinks1:hover {
+  color: var(--hamred);
+}
+
 #sidebarcontactlinks2 {
   font-size: 12vw;
   text-decoration: none;
@@ -74,11 +78,19 @@
   color: var(--softblue);
 }
 
+#sidebarcontactlinks2:hover {
+  color: var(--oceanblue);
+}
+
 #sidebarcontactlinks3 {
   font-size: 12vw;
   text-decoration: none;
   margin-bottom: 3vw;  
   color: var(--softpurple);
+}
+
+#sidebarcontactlinks3:hover {
+  color: var(--hamorange);
 }
 
 input[type=checkbox] {

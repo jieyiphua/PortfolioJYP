@@ -5,6 +5,7 @@
 @import './bio.css';
 @import './contact.css';
 @import './skills.css';
+@import './animation.css';
 
 
 
@@ -16,7 +17,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 
 :root {
-  --oceanblue: #00C5E8;
+  --oceanblue: #00c5e8;
   --darkocean: #263273;
   --darkgreey: #32484E;
   --maroonred: #BA0400;
