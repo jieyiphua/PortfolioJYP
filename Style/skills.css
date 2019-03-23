@@ -110,7 +110,6 @@
   }
 }
 
-
 /* mobile */
 
 @media only screen and (max-width: 430px) {
@@ -123,5 +122,4 @@
   .skillprogress::after {
     font-size: 5vw;
   }
-  
 }
