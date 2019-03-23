@@ -8,7 +8,7 @@ https://jyp.netlify.com/
 https://github.com/jieyiphua/PortfolioJYP
 
 <!-- Description of portfolio website -->
-The portfolio website is designed to provide fellow developers / potential employers a better insight on my personality and the skills that I currently possess. 
+  The portfolio website is designed to provide fellow developers / potential employers a better insight on my personality and the skills that I currently possess. 
 
     <!-- Features of website -->
       Different parts of the website are separated into different html pages. (Home/Bio/Skills/Contact Pages). 
