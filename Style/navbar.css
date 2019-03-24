@@ -52,7 +52,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  box-shadow: 1px 1px 40px var(--royalblue);
+  box-shadow: 1px 1px 20px var(--royalblue);
   text-decoration: none;
   color: black;
   font-family: 'Prata', serif;
@@ -67,7 +67,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  box-shadow: 1px 1px 40px var(--maroonred);
+  box-shadow: 1px 1px 20px var(--maroonred);
   text-decoration: none;
   color: black;
   font-family: 'Prata', serif;
@@ -82,7 +82,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  box-shadow: 1px 1px 40px var(--skillblue);
+  box-shadow: 1px 1px 20px var(--skillblue);
   text-decoration: none;
   color: black;
   font-family: 'Prata', serif;
@@ -97,7 +97,7 @@
   justify-content: center;
   align-items: center;
   border: 1px solid black;
-  box-shadow: 1px 1px 40px var(--hamorange);
+  box-shadow: 1px 1px 20px var(--hamorange);
   text-decoration: none;
   color: black;
   font-family: 'Prata', serif;

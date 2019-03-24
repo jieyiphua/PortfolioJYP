@@ -1,16 +1,16 @@
 
 @keyframes nameintroani {
   0%   {background-color: #57c9dd; left:0px; top:0px;}
-  50%  {background-color: #36c2bb; left:200px; top:0px;}
+  50%  {background-color: #00fff2; left:200px; top:0px;}
   100%  {background-color:var(--oceanblue); left:200px; top:0px;}
 }
 
 @keyframes fontcolorchange {
   0%  {color: var(--oceanblue); left:0px; top:0px;}
   20% {color: var(--brightorange); left:0px; top:0px;}
-  40% {color: var(--maroonred)); left:0px; top:0px;}
+  40% {color: var(--maroonred); left:0px; top:0px;}
   60% {color: var(--oceanblue); left:0px; top:0px;}
   70% {color: var(--brightorange); left:0px; top:0px;}
-  90%  {color: var(--maroonred); left:0px; top:0px;}  
+  90%  {color: var(--maroonred); left:0px; top:0px;}
 }
 
